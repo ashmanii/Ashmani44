@@ -143,20 +143,20 @@
 # Write a function that takes a sentence and returns a dictionary of word frequencies.
 
 
-def word_frequency(sentence):
-    # Convert to lowercase and split into words
-    words = sentence.lower().split()
+# def word_frequency(sentence):
+#     # Convert to lowercase and split into words
+#     words = sentence.lower().split()
 
-    # Create a dictionary to store word counts
-    freq = {}
-    for word in words:
-        if word in freq:
-            freq[word] += 1
-        else:
-            freq[word] = 1
-    return freq
+#     # Create a dictionary to store word counts
+#     freq = {}
+#     for word in words:
+#         if word in freq:
+#             freq[word] += 1
+#         else:
+#             freq[word] = 1
+#     return freq
 
 
-# Example usage
-text = "Python is great and Python is fun"
-print(word_frequency(text))
+# # Example usage
+# text = "Python is great and Python is fun"
+# print(word_frequency(text))
